@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#grid {
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  flex-grow: 1;
+  /*width: 100%;*/
+  /*height: auto;*/
+  box-sizing: border-box;
+  /*border: 1px solid white;*/
+}
+
+.shooter {
+  background: red;
+}
+
+.bullet {
+  background: grey;
+}
+
+.block {
+  background: #5555ff;
+}
+
+.food {
+  background: green;
+}
+
+.hitOnce {
+  background: #aaaaff;
+}
+
+.hitTwice {
+  background: #ccccff;
+}
+
+
+.snake-head {
+  background: black;
+}
+.snake-body {
+  /*flex-basis: auto;*/
+  background: red;
+  /*margin: 0 auto;*/
+  /*box-sizing: border-box;*/
+  /*border: 1px solid white;*/
+  /*margin: 1px;*/
+}
